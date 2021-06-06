@@ -22,10 +22,9 @@ const DishForm = () => {
   const success = useSelector(dishSelectors.selectPostDishSuccess);
   const error = useSelector(dishSelectors.selectPostDishError);
   const dispatch = useDispatch();
-  const onFinish = (values: any) => {
+  const onFinish = (values: PostDishRequest) => {
     dispatch(dishActions.postDishRequest(values));
   };
-  useEffect(() => {}, [error, success]);
 
   const handleChange = (type: string) => {
     setDishType(type);
