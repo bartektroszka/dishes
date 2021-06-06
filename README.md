@@ -1,4 +1,5 @@
-Author: Bartosz Troszka
+Author: Bartosz Troszka,
+
 Time i needed: 3 hours,
 
 yarn version: 1.22.5,
