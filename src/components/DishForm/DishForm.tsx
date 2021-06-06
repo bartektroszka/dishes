@@ -90,7 +90,7 @@ const DishForm = () => {
             name="spiciness"
             rules={[{ required: true, message: "Please select spiceness!" }]}
           >
-            <InputNumber min="0" max="10" step="1" />
+            <InputNumber min="1" max="10" step="1" />
           </Form.Item>
         )}
         {form.getFieldValue("dishType") === "sandwich" && (
