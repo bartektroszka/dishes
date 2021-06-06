@@ -80,7 +80,7 @@ const DishForm = () => {
                 { required: true, message: "Please select the diameter!" },
               ]}
             >
-              <InputNumber min="0" step="1" />
+              <InputNumber min="0" step="1" precision={2} />
             </Form.Item>
           </section>
         )}
